@@ -26,7 +26,6 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "M3508_Motor.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -40,11 +39,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-CAN_RxHeaderTypeDef RxHeader;
-CAN_TxHeaderTypeDef TxHeader = {0x100, 0, CAN_ID_STD, CAN_RTR_DATA, 1, DISABLE};
-uint8_t rx_data[1];
-uint8_t tx_data[1] = {0x11};
-uint32_t TxMailbox = CAN_TX_MAILBOX0;
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -66,6 +61,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
 /* USER CODE END 0 */
 
 /**
@@ -113,10 +109,7 @@ int main(void)
   MX_TIM8_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
-  CAN_FilterTypeDef FilterConfig = {0, 0, 0, 0, CAN_FilterFIFO0, 14, CAN_FILTERMODE_IDMASK, CAN_FILTERSCALE_32BIT, ENABLE};
-  HAL_CAN_ConfigFilter(&hcan1, &FilterConfig);
-  HAL_CAN_Start(&hcan1);
-  HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

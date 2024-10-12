@@ -35,6 +35,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CLionProjects/Cboard/CAN/Core/Src/dma.c" "CMakeFiles/CAN.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/dma.c.obj.d"
   "D:/CLionProjects/Cboard/CAN/Core/Src/gpio.c" "CMakeFiles/CAN.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/gpio.c.obj.d"
   "D:/CLionProjects/Cboard/CAN/Core/Src/iwdg.c" "CMakeFiles/CAN.elf.dir/Core/Src/iwdg.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/iwdg.c.obj.d"
+  "D:/CLionProjects/Cboard/CAN/Core/Src/main.c" "CMakeFiles/CAN.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/main.c.obj.d"
   "D:/CLionProjects/Cboard/CAN/Core/Src/spi.c" "CMakeFiles/CAN.elf.dir/Core/Src/spi.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/spi.c.obj.d"
   "D:/CLionProjects/Cboard/CAN/Core/Src/stm32f4xx_hal_msp.c" "CMakeFiles/CAN.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj.d"
   "D:/CLionProjects/Cboard/CAN/Core/Src/stm32f4xx_it.c" "CMakeFiles/CAN.elf.dir/Core/Src/stm32f4xx_it.c.obj" "gcc" "CMakeFiles/CAN.elf.dir/Core/Src/stm32f4xx_it.c.obj.d"

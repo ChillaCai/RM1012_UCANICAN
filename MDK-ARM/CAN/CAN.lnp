@@ -1,5 +1,8 @@
 --cpu=Cortex-M4.fp.sp
 "can\startup_stm32f407xx.o"
+"can\callback.o"
+"can\m3508_motor.o"
+"can\main.o"
 "can\gpio.o"
 "can\adc.o"
 "can\can.o"
@@ -10,9 +13,6 @@
 "can\usart.o"
 "can\stm32f4xx_it.o"
 "can\stm32f4xx_hal_msp.o"
-"can\callback.o"
-"can\m3508_motor.o"
-"can\main.o"
 "can\stm32f4xx_hal_adc.o"
 "can\stm32f4xx_hal_adc_ex.o"
 "can\stm32f4xx_ll_adc.o"

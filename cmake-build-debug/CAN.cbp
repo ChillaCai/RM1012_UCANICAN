@@ -165,6 +165,9 @@
 		<Unit filename="D:/CLionProjects/Cboard/CAN/Core/Src/iwdg.c">
 			<Option target="CAN.elf"/>
 		</Unit>
+		<Unit filename="D:/CLionProjects/Cboard/CAN/Core/Src/main.c">
+			<Option target="CAN.elf"/>
+		</Unit>
 		<Unit filename="D:/CLionProjects/Cboard/CAN/Core/Src/main.cpp">
 			<Option target="CAN.elf"/>
 		</Unit>

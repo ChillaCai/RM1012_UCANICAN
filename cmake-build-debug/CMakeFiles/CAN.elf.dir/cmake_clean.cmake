@@ -16,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CAN.elf.dir/Core/Src/gpio.c.obj.d"
   "CMakeFiles/CAN.elf.dir/Core/Src/iwdg.c.obj"
   "CMakeFiles/CAN.elf.dir/Core/Src/iwdg.c.obj.d"
+  "CMakeFiles/CAN.elf.dir/Core/Src/main.c.obj"
+  "CMakeFiles/CAN.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/CAN.elf.dir/Core/Src/main.cpp.obj"
   "CMakeFiles/CAN.elf.dir/Core/Src/main.cpp.obj.d"
   "CMakeFiles/CAN.elf.dir/Core/Src/spi.c.obj"
