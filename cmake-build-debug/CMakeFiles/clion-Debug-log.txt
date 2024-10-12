@@ -1,0 +1,5 @@
+C:\Users\chill\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S D:\CLionProjects\Cboard\CAN -B D:\CLionProjects\Cboard\CAN\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/CLionProjects/Cboard/CAN/cmake-build-debug
